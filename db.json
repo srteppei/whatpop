@@ -1,6 +1,10 @@
 {
   "categories": [
     {
+      "id": 0,
+      "name": "-"
+    },
+    {
       "id": 1,
       "name": "Videojuegos"
     },
@@ -15,7 +19,7 @@
   ],
   "products": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Uncharted 4: El Desenlace del Ladrón [PS4]",
       "description": "<p>Tres años después de los hechos acaecidos en Uncharted 3: La traición de Drake, Nathan Drake ha dejado atrás la búsqueda de tesoros. Sin embargo, el destino no tarda en llamar a su puerta cuando su hermano Sam reaparece pidiéndole ayuda para salvar su vida, además de ofrecerle participar en una aventura ante la que Nathan no puede resistirse. Los dos parten a la caza del tesoro perdido del capitán Henry Avery y en busca de Libertalia, el utópico refugio pirata que se halla en lo más profundo de los bosques de Madagascar. Uncharted 4: El desenlace del ladrón embarca al jugador en un viaje alrededor del globo por islas selváticas, grandes ciudades y nevados picos montañosos en busca del tesoro de Avery.</p>",
       "category": {
@@ -25,17 +29,15 @@
       "seller": {
         "id": 1,
         "nick": "yippeekiyay",
-        "avatar": "images/jaxm2mrc1k4zwn5y.jpg"
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
       },
       "publishedDate": 1461103200000,
       "state": "selling",
       "price": 59.9,
-      "photos": [
-        "images/9r1om3iqfhwqyc9y.jpg"
-      ]
+      "photo": "assets/images/9r1om3iqfhwqyc9y.jpg"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Heavy Rain & Beyond: Dos Almas [PS4]",
       "description": "<p>Mucho más allá del cine, mucho más que un videojuego. Disfruta de dos auténticos clásicos que marcaron un antes y un después en el género de acción ahora remasterizados a 1080p y 60 fps. Sumérgete en un vertiginoso thriller psicológico con el exitoso Heavy Rain, en el que cada elección y cada acción puede tener consecuencias dramáticas, y determinar quién vive...y quién muere. Déjate atrapar por una trama de acción y suspense con Beyond: Dos Almas protagonizada por los actores de Hollywood Ellen Page y Willem Dafoe.</p>",
       "category": {
@@ -45,14 +47,12 @@
       "seller": {
         "id": 2,
         "nick": "godhatesusall",
-        "avatar": "images/vuvp3t7rhk26byad.jpg"
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
       },
       "publishedDate": 1456873200000,
       "state": "selling",
       "price": 32.96,
-      "photos": [
-        "images/pga6sj6a7qh46yry.jpg"
-      ]
+      "photo": "assets/images/pga6sj6a7qh46yry.jpg"
     },
     {
       "id": 3,
@@ -65,14 +65,12 @@
       "seller": {
         "id": 3,
         "nick": "stickthemwiththepointyend",
-        "avatar": "images/qkmrrsm4dc9gev2z.jpg"
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
       },
       "publishedDate": 1446764400000,
       "state": "selling",
       "price": 56.72,
-      "photos": [
-        "images/r5onatvd4yek89pb.jpg"
-      ]
+      "photo": "assets/images/r5onatvd4yek89pb.jpg"
     },
     {
       "id": 4,
@@ -85,14 +83,12 @@
       "seller": {
         "id": 4,
         "nick": "samcropresident",
-        "avatar": "images/ghe2fvcoo9esptbe.jpg"
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
       },
       "publishedDate": 1415833200000,
       "state": "selling",
       "price": 19.95,
-      "photos": [
-        "images/jn2pkz3g6fd74ucf.jpg"
-      ]
+      "photo": "assets/images/jn2pkz3g6fd74ucf.jpg"
     },
     {
       "id": 5,
@@ -105,14 +101,12 @@
       "seller": {
         "id": 5,
         "nick": "pussywagon",
-        "avatar": "images/7pqa7tkcp54rupte.jpg"
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
       },
       "publishedDate": 1436911200000,
       "state": "selling",
       "price": 27.71,
-      "photos": [
-        "images/96zzqoynhs5svcyy.jpg"
-      ]
+      "photo": "assets/images/96zzqoynhs5svcyy.jpg"
     },
     {
       "id": 6,
@@ -125,14 +119,12 @@
       "seller": {
         "id": 6,
         "nick": "ivolunteer",
-        "avatar": "images/v7hkfs7z42qmk2m8.jpg"
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
       },
       "publishedDate": 1412719200000,
       "state": "selling",
       "price": 23.21,
-      "photos": [
-        "images/hb1ncwtuyv2vpciw.jpg"
-      ]
+      "photo": "assets/images/hb1ncwtuyv2vpciw.jpg"
     },
     {
       "id": 7,
@@ -145,14 +137,12 @@
       "seller": {
         "id": 1,
         "nick": "yippeekiyay",
-        "avatar": "images/jaxm2mrc1k4zwn5y.jpg"
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
       },
       "publishedDate": 1456182000000,
       "state": "selling",
       "price": 55,
-      "photos": [
-        "images/xv8q2f7d2mde3htz.jpg"
-      ]
+      "photo": "assets/images/xv8q2f7d2mde3htz.jpg"
     },
     {
       "id": 8,
@@ -165,14 +155,12 @@
       "seller": {
         "id": 2,
         "nick": "godhatesusall",
-        "avatar": "images/vuvp3t7rhk26byad.jpg"
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
       },
       "publishedDate": 1384988400000,
       "state": "selling",
       "price": 18.95,
-      "photos": [
-        "images/i72vphihfj4fptgs.jpg"
-      ]
+      "photo": "assets/images/i72vphihfj4fptgs.jpg"
     },
     {
       "id": 9,
@@ -185,14 +173,12 @@
       "seller": {
         "id": 3,
         "nick": "stickthemwiththepointyend",
-        "avatar": "images/qkmrrsm4dc9gev2z.jpg"
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
       },
       "publishedDate": 1416610800000,
       "state": "selling",
       "price": 27.85,
-      "photos": [
-        "images/48mtnnv2m2ry15ah.jpg"
-      ]
+      "photo": "assets/images/48mtnnv2m2ry15ah.jpg"
     },
     {
       "id": 10,
@@ -205,14 +191,12 @@
       "seller": {
         "id": 4,
         "nick": "samcropresident",
-        "avatar": "images/ghe2fvcoo9esptbe.jpg"
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
       },
       "publishedDate": 1416870000000,
       "state": "selling",
       "price": 17.9,
-      "photos": [
-        "images/9agxnfiwur25nrp4.jpg"
-      ]
+      "photo": "assets/images/9agxnfiwur25nrp4.jpg"
     },
     {
       "id": 11,
@@ -225,14 +209,12 @@
       "seller": {
         "id": 5,
         "nick": "pussywagon",
-        "avatar": "images/7pqa7tkcp54rupte.jpg"
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
       },
       "publishedDate": 1464127200000,
-      "state": "selling",
+      "state": "sold",
       "price": 16.74,
-      "photos": [
-        "images/wpj2tpu8vfguqwhn.jpg"
-      ]
+      "photo": "assets/images/wpj2tpu8vfguqwhn.jpg"
     },
     {
       "id": 12,
@@ -245,14 +227,12 @@
       "seller": {
         "id": 6,
         "nick": "ivolunteer",
-        "avatar": "images/v7hkfs7z42qmk2m8.jpg"
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
       },
       "publishedDate": 1351551600000,
       "state": "selling",
       "price": 10.01,
-      "photos": [
-        "images/q9r1id3i2gaan3vh.jpg"
-      ]
+      "photo": "assets/images/q9r1id3i2gaan3vh.jpg"
     },
     {
       "id": 13,
@@ -265,14 +245,12 @@
       "seller": {
         "id": 1,
         "nick": "yippeekiyay",
-        "avatar": "images/jaxm2mrc1k4zwn5y.jpg"
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
       },
       "publishedDate": 1380578400000,
       "state": "selling",
       "price": 11.9,
-      "photos": [
-        "images/t43vp5y57troktxi.jpg"
-      ]
+      "photo": "assets/images/t43vp5y57troktxi.jpg"
     },
     {
       "id": 14,
@@ -285,14 +263,12 @@
       "seller": {
         "id": 2,
         "nick": "godhatesusall",
-        "avatar": "images/vuvp3t7rhk26byad.jpg"
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
       },
       "publishedDate": 1459288800000,
       "state": "selling",
       "price": 13.41,
-      "photos": [
-        "images/oz4i8gqityrhzv93.jpg"
-      ]
+      "photo": "assets/images/oz4i8gqityrhzv93.jpg"
     },
     {
       "id": 15,
@@ -305,14 +281,12 @@
       "seller": {
         "id": 3,
         "nick": "stickthemwiththepointyend",
-        "avatar": "images/qkmrrsm4dc9gev2z.jpg"
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
       },
       "publishedDate": 1463522400000,
       "state": "selling",
       "price": 14.28,
-      "photos": [
-        "images/cw4t2tej37duxrfs.jpg"
-      ]
+      "photo": "assets/images/cw4t2tej37duxrfs.jpg"
     },
     {
       "id": 16,
@@ -325,14 +299,12 @@
       "seller": {
         "id": 4,
         "nick": "samcropresident",
-        "avatar": "images/ghe2fvcoo9esptbe.jpg"
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
       },
       "publishedDate": 1335909600000,
       "state": "selling",
       "price": 10.01,
-      "photos": [
-        "images/mp8ihvy3kfkniwn7.jpg"
-      ]
+      "photo": "assets/images/mp8ihvy3kfkniwn7.jpg"
     },
     {
       "id": 17,
@@ -345,14 +317,12 @@
       "seller": {
         "id": 5,
         "nick": "pussywagon",
-        "avatar": "images/7pqa7tkcp54rupte.jpg"
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
       },
       "publishedDate": 1412114400000,
       "state": "selling",
       "price": 11.1,
-      "photos": [
-        "images/xjj1v2xhy2na5jmt.jpg"
-      ]
+      "photo": "assets/images/xjj1v2xhy2na5jmt.jpg"
     },
     {
       "id": 18,
@@ -365,14 +335,12 @@
       "seller": {
         "id": 6,
         "nick": "ivolunteer",
-        "avatar": "images/v7hkfs7z42qmk2m8.jpg"
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
       },
       "publishedDate": 1360018800000,
       "state": "selling",
       "price": 12.4,
-      "photos": [
-        "images/gwdco5phrzvuxm91.jpg"
-      ]
+      "photo": "assets/images/gwdco5phrzvuxm91.jpg"
     },
     {
       "id": 19,
@@ -385,14 +353,12 @@
       "seller": {
         "id": 1,
         "nick": "yippeekiyay",
-        "avatar": "images/jaxm2mrc1k4zwn5y.jpg"
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
       },
       "publishedDate": 1394751600000,
       "state": "selling",
       "price": 11.1,
-      "photos": [
-        "images/n96vtrgippjfk4f7.jpg"
-      ]
+      "photo": "assets/images/n96vtrgippjfk4f7.jpg"
     },
     {
       "id": 20,
@@ -405,14 +371,12 @@
       "seller": {
         "id": 2,
         "nick": "godhatesusall",
-        "avatar": "images/vuvp3t7rhk26byad.jpg"
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
       },
       "publishedDate": 1369173600000,
       "state": "selling",
       "price": 13.9,
-      "photos": [
-        "images/e7kk3ci2itgh5uj9.jpg"
-      ]
+      "photo": "assets/images/e7kk3ci2itgh5uj9.jpg"
     },
     {
       "id": 21,
@@ -425,14 +389,12 @@
       "seller": {
         "id": 3,
         "nick": "stickthemwiththepointyend",
-        "avatar": "images/qkmrrsm4dc9gev2z.jpg"
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
       },
       "publishedDate": 1315778400000,
       "state": "selling",
       "price": 9.45,
-      "photos": [
-        "images/fxfpsgs9rvygk5xc.jpg"
-      ]
+      "photo": "assets/images/fxfpsgs9rvygk5xc.jpg"
     },
     {
       "id": 22,
@@ -445,14 +407,12 @@
       "seller": {
         "id": 4,
         "nick": "samcropresident",
-        "avatar": "images/ghe2fvcoo9esptbe.jpg"
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
       },
       "publishedDate": 1457391600000,
       "state": "selling",
       "price": 4.74,
-      "photos": [
-        "images/7b3vcg4rk89za28r.jpg"
-      ]
+      "photo": "assets/images/7b3vcg4rk89za28r.jpg"
     },
     {
       "id": 23,
@@ -465,14 +425,12 @@
       "seller": {
         "id": 5,
         "nick": "pussywagon",
-        "avatar": "images/7pqa7tkcp54rupte.jpg"
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
       },
       "publishedDate": 1464040800000,
       "state": "selling",
       "price": 4.74,
-      "photos": [
-        "images/91kzxg1jdyne3p88.jpg"
-      ]
+      "photo": "assets/images/91kzxg1jdyne3p88.jpg"
     },
     {
       "id": 24,
@@ -485,14 +443,12 @@
       "seller": {
         "id": 6,
         "nick": "ivolunteer",
-        "avatar": "images/v7hkfs7z42qmk2m8.jpg"
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
       },
       "publishedDate": 1447801200000,
       "state": "selling",
       "price": 4.73,
-      "photos": [
-        "images/89hhphvsjt39qr6b.jpg"
-      ]
+      "photo": "assets/images/89hhphvsjt39qr6b.jpg"
     },
     {
       "id": 25,
@@ -505,14 +461,12 @@
       "seller": {
         "id": 1,
         "nick": "yippeekiyay",
-        "avatar": "images/jaxm2mrc1k4zwn5y.jpg"
+        "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg"
       },
       "publishedDate": 1255730400000,
       "state": "selling",
       "price": 20.85,
-      "photos": [
-        "images/xk5ygnmu4c4y9ody.jpg"
-      ]
+      "photo": "assets/images/xk5ygnmu4c4y9ody.jpg"
     },
     {
       "id": 26,
@@ -525,14 +479,12 @@
       "seller": {
         "id": 2,
         "nick": "godhatesusall",
-        "avatar": "images/vuvp3t7rhk26byad.jpg"
+        "avatar": "assets/images/vuvp3t7rhk26byad.jpg"
       },
       "publishedDate": 1394406000000,
       "state": "selling",
       "price": 2.99,
-      "photos": [
-        "images/5m1ab1q459nofzxj.jpg"
-      ]
+      "photo": "assets/images/5m1ab1q459nofzxj.jpg"
     },
     {
       "id": 27,
@@ -545,14 +497,12 @@
       "seller": {
         "id": 3,
         "nick": "stickthemwiththepointyend",
-        "avatar": "images/qkmrrsm4dc9gev2z.jpg"
+        "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg"
       },
       "publishedDate": 1450825200000,
       "state": "selling",
       "price": 2.99,
-      "photos": [
-        "images/wvdo6t88kn7t4s8b.jpg"
-      ]
+      "photo": "assets/images/wvdo6t88kn7t4s8b.jpg"
     },
     {
       "id": 28,
@@ -565,14 +515,12 @@
       "seller": {
         "id": 4,
         "nick": "samcropresident",
-        "avatar": "images/ghe2fvcoo9esptbe.jpg"
+        "avatar": "assets/images/ghe2fvcoo9esptbe.jpg"
       },
       "publishedDate": 1445378400000,
       "state": "selling",
       "price": 11.4,
-      "photos": [
-        "images/jsr9wp18jhzbkxdu.jpg"
-      ]
+      "photo": "assets/images/jsr9wp18jhzbkxdu.jpg"
     },
     {
       "id": 29,
@@ -585,14 +533,12 @@
       "seller": {
         "id": 5,
         "nick": "pussywagon",
-        "avatar": "images/7pqa7tkcp54rupte.jpg"
+        "avatar": "assets/images/7pqa7tkcp54rupte.jpg"
       },
       "publishedDate": 1430949600000,
       "state": "selling",
       "price": 8.54,
-      "photos": [
-        "images/cv1g3hp7jx8etjvr.jpg"
-      ]
+      "photo": "assets/images/cv1g3hp7jx8etjvr.jpg"
     },
     {
       "id": 30,
@@ -605,14 +551,12 @@
       "seller": {
         "id": 6,
         "nick": "ivolunteer",
-        "avatar": "images/v7hkfs7z42qmk2m8.jpg"
+        "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg"
       },
       "publishedDate": 1441576800000,
       "state": "selling",
       "price": 14.25,
-      "photos": [
-        "images/5wmief4igbpozztc.jpg"
-      ]
+      "photo": "assets/images/5wmief4igbpozztc.jpg"
     }
   ],
   "users": [
@@ -620,7 +564,7 @@
       "id": 1,
       "name": "John McClane",
       "nick": "yippeekiyay",
-      "avatar": "images/jaxm2mrc1k4zwn5y.jpg",
+      "avatar": "assets/images/jaxm2mrc1k4zwn5y.jpg",
       "latitude": 40.4211134,
       "longitude": -3.7046639999999798,
       "email": "ikilled@hansgruber.com"
@@ -629,7 +573,7 @@
       "id": 2,
       "name": "Hank Moody",
       "nick": "godhatesusall",
-      "avatar": "images/vuvp3t7rhk26byad.jpg",
+      "avatar": "assets/images/vuvp3t7rhk26byad.jpg",
       "latitude": 40.43938,
       "longitude": -3.714550000000031,
       "email": "ilove@runkle.com"
@@ -638,7 +582,7 @@
       "id": 3,
       "name": "Arya Stark",
       "nick": "stickthemwiththepointyend",
-      "avatar": "images/qkmrrsm4dc9gev2z.jpg",
+      "avatar": "assets/images/qkmrrsm4dc9gev2z.jpg",
       "latitude": 40.4984144,
       "longitude": -3.6879922000000533,
       "email": "not@today.com"
@@ -647,7 +591,7 @@
       "id": 4,
       "name": "Jackson Teller",
       "nick": "samcropresident",
-      "avatar": "images/ghe2fvcoo9esptbe.jpg",
+      "avatar": "assets/images/ghe2fvcoo9esptbe.jpg",
       "latitude": 40.4214232,
       "longitude": -3.6123024999999416,
       "email": "jesus@christ.com"
@@ -656,7 +600,7 @@
       "id": 5,
       "name": "Beatrix Kiddo",
       "nick": "pussywagon",
-      "avatar": "images/7pqa7tkcp54rupte.jpg",
+      "avatar": "assets/images/7pqa7tkcp54rupte.jpg",
       "latitude": 40.4006009,
       "longitude": -3.745363300000008,
       "email": "paimei@rulez.com"
@@ -665,7 +609,7 @@
       "id": 6,
       "name": "Katniss Everdeen",
       "nick": "ivolunteer",
-      "avatar": "images/v7hkfs7z42qmk2m8.jpg",
+      "avatar": "assets/images/v7hkfs7z42qmk2m8.jpg",
       "latitude": 40.4500596,
       "longitude": -3.6682499999999436,
       "email": "maytheoddsbeever@inyourfavor.com"

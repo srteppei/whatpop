@@ -1,0 +1,46 @@
+<div class="row" *ngIf="product">
+  <div class="medium-4 columns">
+    <img [src]="product.photo" class="thumbnail" />
+  </div>
+  <div class="medium-8 columns">
+    <h3>{{ product.name }}</h3>
+    <p>
+      <span class="label" [ngClass]="{
+        'info': product.category.id === 1,
+        'alert': product.category.id === 2,
+        'warning': product.category.id === 3 }">
+        {{ product.category.name }}
+      </span>
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+      | Blue Path                                                        |
+      |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+      | Una vez tengas creado el Pipe PublicationDatePipe, úsalo con la  |
+      | fecha de publicación.                                            |
+      |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+      <span>
+        {{ product.publishedDate }}
+      </span>
+    </p>
+    <p [innerHtml]="product.description"></p>
+    <app-user-profile [userId]="product.seller.id"></app-user-profile>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+    | Purple Path                                                      |
+    |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+    | Aplica el siguiente formato al precio del producto:              |
+    |   - 1 dígito mínimo (parte entera)                               |
+    |   - 2 dígitos mínimo y máximo (parte decimal)                    |
+    |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <button *ngIf="product.state === 'selling'"
+            (click)="showPurchaseWarning()"
+            class="button large expanded">
+      Comprar por {{ product.price }} €
+    </button>
+    <button (click)="goBack()" class="warning button expanded">Volver</button>
+  </div>
+  <!-- Confirmation alert -->
+  <p-confirmDialog header="Confirmación de compra" width="625" #cd></p-confirmDialog>
+</div>

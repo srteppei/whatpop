@@ -1,0 +1,14 @@
+<div class="row">
+  <div *ngIf="products?.length > 0" class="small-12 medium-8 medium-offset-2 large-6 large-offset-3 columns">
+    <ul>
+      <li *ngFor="let product of products">
+        <button
+          (click)="setProductAvailable(product.id)"
+          class="button expanded">Poner {{ product.name }} a la venta</button>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="products?.length === 0" class="text-center">
+    <span>Todos los productos están a la venta.</span>
+  </div>
+</div>
