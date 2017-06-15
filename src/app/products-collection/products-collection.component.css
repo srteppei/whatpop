@@ -1,0 +1,9 @@
+:host>div:first-child {
+  border-bottom: 1px dashed #2199e8;
+  margin-bottom: 20px;
+  padding-bottom: 32px;
+}
+
+:host>div:last-child {
+  margin-bottom: 20px;
+}

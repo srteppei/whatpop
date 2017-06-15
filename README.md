@@ -1,4 +1,4 @@
-# angular2-test-directions
+# angular4-mobile-test-directions
 
 **Whatapop** es un _amago_ de clon de [Wallapop](http://es.wallapop.com). Sus pretensiones son mucho más humildes que las del conocido portal, pero a la vez contribuyen a una grandiosa causa: que aprendas a familiarizarte con HTML5, CSS3 y Angular.
 
@@ -28,14 +28,7 @@ Por cierto, por si te lo habías preguntado: no tienes que tocar ni una sola lí
 
 Hagas o no los **Optional Paths**, puedas terminar o no los obligatorios, te guste Java o COBOL, el metal o el reggaeton, yo estaré encantado de ayudarte. Ya sabes dónde localizarme.
 
-## Estructura del proyecto
-
-Aunque el árbol del proyecto sea sencillo y esté muy claro, te detallo donde está cada cosa:
-
-- **app/components**: en esta ruta tienes los Componentes de la app.
-- **app/models**: en esta ruta tienes las Entidades de la app.
-- **app/pipes**: en esta ruta tienes los Pipes de la app.
-- **app/services**: en esta ruta tienes los Servicios y Resolves de la app.
+## Entidades
 
 Aprovecho este momento para contarte un poco sobre las entidades. Son estas tres: `Category`, `User` y `Product`. Como puedes imaginar, la entidad `Product` es la que más peso tiene y sobre la que gira **Whatapop**. Tiene todos los atributos necesarios para almacenar los datos propios de un producto, además de mantener relación con `User` para establecer el vendedor del mismo y con `Category` para enlazar la categoría en la que se publica. Están definidas de la siguiente forma:
 
@@ -74,9 +67,16 @@ Antes de empezar a completar **Whatapop**, que sé que tienes ganas, tienes que 
 $ git clone https://github.com/vermicida/kc-whatapop-seed.git
 ```
 
+Recuerda que debes teber instalado [Angular CLI](https://cli.angular.io/) a nivel global para trabajar con **Whatapop**:
+
+```
+$ npm install -g @angular/cli
+```
+
 Una vez descargado y descomprimido, o bien clonado, vamos al directorio correspondiente e instalamos las dependencias:
 
 ```bash
+$ cd kc-whatapop-seed
 $ npm install
 ```
 
@@ -100,10 +100,10 @@ Dependencias:
 
 Documentos:
 
-- app/components/product/**product.component.html**
-- app/components/product/**product.component.ts**
-- app/components/products-collection/**products-collection.component.html**
-- app/components/products-collection/**products-collection.component.ts**
+- src/app/product/**product.component.html**
+- src/app/product/**product.component.ts**
+- src/app/products-collection/**products-collection.component.html**
+- src/app/products-collection/**products-collection.component.ts**
 
 Qué practicamos:
 
@@ -120,9 +120,9 @@ Dependencias:
 
 Documentos:
 
-- app/components/product-detail/**product-detail.component.html**
-- app/pipes/**publication-date.pipe.ts**
-- app/**app.module.ts**
+- src/app/product-detail/**product-detail.component.html**
+- src/app/**publication-date.pipe.ts**
+- src/app/**app.module.ts**
 
 Qué practicamos:
 
@@ -138,7 +138,7 @@ Dependencias:
 
 Documentos:
 
-- app/services/**product.service.ts**
+- src/app/**product.service.ts**
 
 Qué practicamos:
 
@@ -154,7 +154,7 @@ Dependencias:
 
 Documentos:
 
-- app/services/**product.service.ts**
+- src/app/**product.service.ts**
 
 Qué practicamos:
 
@@ -170,9 +170,9 @@ Dependencias:
 
 Documentos:
 
-- app/components/products-collection/**products-collection.component.html**
-- app/services/**sold-products-resolve.service.ts**
-- app/services/**product.service.ts**
+- src/app/products-collection/**products-collection.component.html**
+- src/app/**sold-products-resolve.service.ts**
+- src/app/**product.service.ts**
 
 Qué practicamos:
 
@@ -189,8 +189,8 @@ Dependencias:
 
 Documentos:
 
-- app/components/product/**product.component.html**
-- app/components/product-detail/**product-detail.component.html**
+- src/app/product/**product.component.html**
+- src/app/product-detail/**product-detail.component.html**
 
 Qué practicamos:
 
