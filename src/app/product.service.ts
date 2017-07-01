@@ -47,6 +47,7 @@ export class ProductService {
     if (filter != undefined) {
         sort += '&q=' + filter.text;
         sort += '&category.id=' + filter.category;
+        sort += '&state=' + filter.state; // yellow path
     }
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     | Yellow Path                                                      |
