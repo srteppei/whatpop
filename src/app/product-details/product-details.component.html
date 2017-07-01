@@ -20,7 +20,7 @@
       |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
       <span>
-        {{ product.publishedDate }}
+        {{ product.publishedDate | PublicationDate }}
       </span>
     </p>
     <p [innerHtml]="product.description"></p>

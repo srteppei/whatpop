@@ -48,7 +48,6 @@ export class ProductsCollectionComponent implements OnDestroy, OnInit {
   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
   productClicked (product: Product) {
-      console.log(product);
       this._router.navigate([`/products/${product.id}`]);
   }
 }
