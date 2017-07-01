@@ -15,7 +15,7 @@ export class ProductService {
     @Inject(BackendUri) private _backendUri) { }
 
   getProducts(filter: ProductFilter = undefined): Observable<Product[]> {
-
+    
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     | Pink Path                                                        |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
@@ -28,7 +28,7 @@ export class ProductService {
     |                                                                  |
     |   _sort=publishedDate&_order=DESC                                |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+    const sort = '?_sort=publishedDate&_order=DESC ';
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     | Red Path                                                         |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
@@ -60,7 +60,7 @@ export class ProductService {
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
     return this._http
-      .get(`${this._backendUri}/products`)
+      .get(`${this._backendUri}/products` + sort)
       .map((data: Response): Product[] => Product.fromJsonToList(data.json()));
   }
 
