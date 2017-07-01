@@ -8,8 +8,6 @@
   | componente padre.                                                |
   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-  <button (click)='productClick()'>Seleccionar producto</button>
-
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
   | Purple Path                                                      |
   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
@@ -21,8 +19,10 @@
   <button
     class="button expanded"
     [class.success]="data.state === 'selling'"
-    [class.secondary]="data.state === 'sold'">
-      <span *ngIf="data.state === 'selling'">
+    [class.secondary]="data.state === 'sold'"
+    (click)='productClick()'>
+      <span *ngIf="data.state === 'selling'"
+      >
         Comprar por {{ data.price | number : '1.2-2' }} €
       </span>
       <span *ngIf="data.state === 'sold'">
