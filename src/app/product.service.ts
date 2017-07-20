@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import { Http, Response, URLSearchParams, RequestOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
@@ -15,7 +15,8 @@ export class ProductService {
     @Inject(BackendUri) private _backendUri) { }
 
   getProducts(filter: ProductFilter = undefined): Observable<Product[]> {
-    
+    const params = new URLSearchParams();
+    const options = new RequestOptions({search: params});
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     | Pink Path                                                        |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
@@ -28,7 +29,8 @@ export class ProductService {
     |                                                                  |
     |   _sort=publishedDate&_order=DESC                                |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    let sort = '?_sort=publishedDate&_order=DESC ';
+    params.set('_sort', 'publishedDate');
+    params.set('_order', 'DESC');
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     | Red Path                                                         |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
@@ -44,10 +46,20 @@ export class ProductService {
     |   - Búsqueda por categoría:                                      |
     |       category.id=x (siendo x el identificador de la categoría)  |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-    if (filter != undefined) {
-        sort += '&q=' + filter.text;
-        sort += '&category.id=' + filter.category;
-        sort += '&state=' + filter.state; // yellow path
+    if (filter !== undefined && filter !== null) {
+
+      if (filter.text) {
+        params.set('q', filter.text);
+      }
+
+      if (filter.category) {
+        params.set('category.id', filter.category);
+      }
+
+      if (filter.state) {
+        params.set('state', filter.state); // yellow path
+      }
+
     }
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     | Yellow Path                                                      |
@@ -64,7 +76,7 @@ export class ProductService {
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
     return this._http
-      .get(`${this._backendUri}/products` + sort)
+      .get(`${this._backendUri}/products`, {search: params})
       .map((data: Response): Product[] => Product.fromJsonToList(data.json()));
   }
 
