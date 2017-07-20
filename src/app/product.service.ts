@@ -16,7 +16,6 @@ export class ProductService {
 
   getProducts(filter: ProductFilter = undefined): Observable<Product[]> {
     const params = new URLSearchParams();
-    const options = new RequestOptions({search: params});
     /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     | Pink Path                                                        |
     |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
